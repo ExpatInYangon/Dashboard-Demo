@@ -1,0 +1,28 @@
+.scrollable-content {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.info-box {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+#legend {
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+}
+
+.leaflet-control-fullscreen {
+    background-image: url('data:image/svg+xml;utf8,<svg ...></svg>');
+}
+
+/* Burmese text styling */
+.burmese-text {
+    font-family: 'Pyidaungsu', 'Noto Sans Myanmar', sans-serif;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
